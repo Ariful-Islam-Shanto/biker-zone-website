@@ -289,25 +289,25 @@
       </div>
     </section>
     <!-- faq section -->
-    <section class="mb-24">
-      <h3 class="text-5xl font-semibold text-black text-center mb-28"> Frequently Asked<span class="text-bike-primary"> Questions
+    <section class="mb-24 p-5">
+      <h3 class="text-5xl font-semibold text-black text-center lg:mb-28"> Frequently Asked<span class="text-bike-primary"> Questions
       </span></h3>
-
-      <div class="flex">
+      <!-- collapse one -->
+      <div class="flex lg:gap-24 flex-col-reverse lg:flex-row">
         <div class="flex-1">
-          <img src="/images/others/faq.png" alt="" srcset="">
+          <img src="/images/others/faq.png" alt="" srcset="" class="lg:max-w-sm md:w-full">
         </div>
         <div class="flex-1">
           <div class="collapse collapse-arrow bg-white">
             <input type="radio" name="my-accordion-2" checked="checked" /> 
             <div class="collapse-title text-xl font-medium">
               <Translate text="Click to open this one and close others" />
-            </div>
-            <div class="collapse-content"> 
               <h3 class="text-xl font-medium text-black">
                 What are the most important things I should
                 know about riding a bike?
               </h3>
+            </div>
+            <div class="collapse-content"> 
                 <p class="text-xl">
                   Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.
                 </p>
@@ -318,12 +318,11 @@
             <input type="radio" name="my-accordion-2" /> 
             <div class="collapse-title text-xl font-medium">
               <Translate text="Click to open this one and close others" />
+              <h3 class="text-xl font-medium text-black">
+                How can I tell if my helmet is old and I need a new one?
+              </h3>
             </div>
             <div class="collapse-content"> 
-              <h3 class="text-xl font-medium text-black">
-                What are the most important things I should
-                know about riding a bike?
-              </h3>
                 <p class="text-xl">
                   Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.
                 </p>
@@ -334,12 +333,26 @@
             <input type="radio" name="my-accordion-2" /> 
             <div class="collapse-title text-xl font-medium">
               <Translate text="Click to open this one and close others" />
+              <h3 class="text-xl font-medium text-black">
+                My bike has been in storage is it safe to ride?
+              </h3>
             </div>
             <div class="collapse-content"> 
+                <p class="text-xl">
+                  Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.
+                </p>
+            </div>
+          </div>
+          <!-- collapse four -->
+          <div class="collapse collapse-arrow bg-white">
+            <input type="radio" name="my-accordion-2" /> 
+            <div class="collapse-title text-xl font-medium">
+              <Translate text="Click to open this one and close others" />
               <h3 class="text-xl font-medium text-black">
-                What are the most important things I should
-                know about riding a bike?
+                What rules should I follow when riding my bike?
               </h3>
+            </div>
+            <div class="collapse-content"> 
                 <p class="text-xl">
                   Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.
                 </p>
@@ -349,9 +362,18 @@
       </div>
     </section>
   </main>
-  <footer>
-
-  </footer>
+    <footer class="footer p-10 bg-neutral text-neutral-content flex justify-around ">
+      <div>
+        <p>ACME Industries Ltd.<br/>Providing reliable tech since 1992</p>
+      </div> 
+      <div>
+        <span class="footer-title">Social</span> 
+        <div class="grid grid-cols-1 gap-4">
+          <a><img class="w-36" src="/images/others/android.png" alt=""></a> 
+          <a><img class="w-36" src="/images/others/ios.png" alt=""></a> 
+        </div>
+      </div>
+    </footer>
 </body>
 
 </html>
